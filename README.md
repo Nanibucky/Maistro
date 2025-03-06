@@ -1,5 +1,9 @@
 # Memory Agent
 
+[https://github.com/Nanibucky/ToDo_Agents/blob/main/Source/LangGraph_Studio_record.mov]
+
+
+
 ## Overview
 
 The Memory Agent is an AI-powered chatbot designed to save and manage semantic memories within a user profile or a collection. It integrates LangChain, LangGraph, and Trustcall to facilitate long-term memory retention and procedural adaptation.
