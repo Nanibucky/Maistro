@@ -14,4 +14,4 @@ Integrates task_mAIstro, an AI assistant that helps manage a ToDo list.
 
 Supports procedural memory, allowing users to set preferences for task management.
 
-Determines when to save memories dynamically for better user e
+Determines when to save memories dynamically for better user 
