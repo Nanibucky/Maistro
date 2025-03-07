@@ -7,9 +7,9 @@ The Memory Agent is an AI-powered chatbot designed to save and manage semantic m
 
 Before you run this application in LangGraph Studio, run Docker first !!!!
 
-![Chatbot Interface] (https://github.com/Nanibucky/ToDo_Agents/blob/main/source/cover_page.jpg)
+![Chatbot Interface](https://github.com/Nanibucky/ToDo_Agents/blob/main/source/cover_page.jpg)
 
-![Chatbot Interface] (https://github.com/Nanibucky/ToDo_Agents/blob/main/source/cover_page_2.png)
+![Chatbot Interface](https://github.com/Nanibucky/ToDo_Agents/blob/main/source/cover_page_2.png)
 
 
 
