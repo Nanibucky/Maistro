@@ -2,28 +2,16 @@
 
 ## Overview
 
-The Memory Agent is an AI-powered chatbot designed to save and manage semantic memories within a user profile or a collection. It integrates LangChain, LangGraph, and Trustcall to facilitate long-term memory retention and procedural adaptation.
+The Memory Agent is an AI-powered chatbot designed to save and manage semantic memories within a user profile or a collection. It leverages technologies such as LangChain, LangGraph, and Trustcall to facilitate long-term memory management and task assistance.
 
 ## Features
 
-Saves semantic memories to a user profile or a collection.
-
-Uses Trustcall to update and manage memory schemas.
-
-Integrates task_mAIstro, an AI assistant that helps manage a ToDo list.
-
-Supports procedural memory, allowing users to set preferences for task management.
-
-Determines when to save memories dynamically for better user 
-
-
-
-
-# Memory Agent
-
-## Overview
-
-The Memory Agent is a sophisticated system designed to assist users by keeping track of their personal information, tasks, and preferences. It leverages long-term memory to provide a personalized and efficient user experience.
+- **Semantic Memory Management**: Saves semantic memories to a user profile or a collection.
+- **Dynamic Memory Updates**: Determines when to save memories dynamically for better user experience.
+- **Trustcall Integration**: Uses Trustcall to update and manage memory schemas.
+- **ToDo List Management**: Integrates task_mAIstro, an AI assistant that helps manage a ToDo list.
+- **Procedural Memory Support**: Allows users to set preferences for task management.
+- **Graphical Observation**: Utilizes LangGraph Studio to observe the application in a graphical format.
 
 ## Components
 
@@ -35,6 +23,9 @@ The Memory Agent is a sophisticated system designed to assist users by keeping t
 
 3. **Instructions**: 
    - Contains user-specified preferences for updating the ToDo list.
+
+4. **LangGraph Studio**: 
+   - Provides a graphical interface to observe the application's behavior and memory updates.
 
 ## Functionality
 
@@ -68,6 +59,18 @@ The Memory Agent is a sophisticated system designed to assist users by keeping t
 - **UpdateMemory Function**: 
   - A function used to update the memory components based on the type of information received.
 
+## .env file
+   - Create a environment with    OPENAI_API_KEY="Your-openai-api-key"
+
+
+## Running LangGraph Studio
+
+To observe the application in a graphical format using LangGraph Studio, follow these steps:
+
+1. Ensure Docker is running in the background.
+2. Provide the application studio path to LangGraph Studio.
+3. Start LangGraph Studio to visualize the application's behavior and memory updates.
+
 ## Conclusion
 
-The Memory Agent is designed to be a helpful companion, streamlining task management and personal information tracking. Its ability to adapt and update based on user interactions makes it a powerful tool for enhancing productivity and organization.
+The Memory Agent is designed to be a helpful companion, streamlining task management and personal information tracking. Its ability to adapt and update based on user interactions makes it a powerful tool for managing tasks and personal information efficiently.
