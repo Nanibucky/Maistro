@@ -20,8 +20,6 @@ from langgraph.store.memory import InMemoryStore
 
 import configuration
 
-## Utilities 
-
 # Inspect the tool calls for Trustcall
 class Spy:
     def __init__(self):
